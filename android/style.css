@@ -99,6 +99,7 @@ nav .right {
 .part1 .title {
     position: relative;
     background-color: #959fa4;
+    cursor: pointer;
 }
 
 .part1 .title:hover {
@@ -169,6 +170,15 @@ li:hover li {
     overflow: hidden;
     float: left;
     display: inline-block;
+}
+
+.part1 #right {
+    padding: 30px;
+}
+
+.part1 #right p {
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .part1 .box {
