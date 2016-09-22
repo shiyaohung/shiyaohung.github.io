@@ -110,8 +110,12 @@ nav .threedots:hover {
     background-color: dodgerblue;
 }
 
+nav .threedots:hover .tooltiptext {
+    visibility: visible;
+}
+
 .tooltiptext {
-    /*    visibility: hidden;*/
+    visibility: hidden;
     width: 120px;
     background-color: black;
     color: #fff;
@@ -125,15 +129,15 @@ nav .threedots:hover {
     /*    margin-left: -60px;*/
 }
 
-.tooltip .tooltiptext::after {
+.tooltiptext::after {
     content: "";
     position: absolute;
-    top: -50%;
-    left: 50%;
+    top: -23%;
+    left: 40%;
     margin-left: -5px;
-    border-width: 5px;
+    border-width: 20px;
     border-style: solid;
-    border-color: black transparent black transparent;
+    border-color: transparent transparent black transparent;
 }
 
 .tooltiptext ul {
