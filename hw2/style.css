@@ -1,0 +1,26 @@
+
+h1 {
+    /* set h1 font size and color*/
+    color: darkslateblue;
+    font-size: 40px;
+    /* if no ronboto, use sans-serif */
+    font-family: 'Roboto', sans-serif;
+    /* align to center */
+    text-align: center;
+    line-height: 0;
+}
+
+h2 {
+        text-align: center;
+        line-height: 0
+}
+/*set h3 to bold and italic*/
+h3 {
+    font-weight: bolder;
+    font-style:oblique; 
+}
+
+/* set list font color to casetblue */
+li {
+    color: red;
+}
