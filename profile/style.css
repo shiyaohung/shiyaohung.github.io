@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    overflow: visible;
+}
+
+.container:after {
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
+.col-md-4 {
+    margin: 0;
+    padding: 0;
+    /*    background-color: #055377;*/
+    background-color: black;
+    color: white;
+    position: relative;
+    left: -400px;
+}
+
+.col-md-4 .headshot {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+    margin: auto;
+    display: block;
+    top: -180px;
+    padding: 5px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.col-md-4 img {
+    /*
+    position: relative;
+    top: px;
+*/
+    width: 100%;
+    filter: grayscale(100%);
+    /*    image-orientation: -45deg;*/
+    /*    transform: rotate(-45deg);*/
+}
+
+.col-md-4 h1 {
+    margin: 20px 0px;
+    padding: 10px 0px;
+    /*    background-color: #0776a9;*/
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+.col-md-4 .title img {
+    padding: 0px;
+    margin: 0px;
+    width: 59px;
+    display: block;
+    float: left;
+}
+
+.col-md-4 h1:hover {
+    opacity: 0.7;
+}
+
+.col-md-4 p {
+    padding-left: 20px;
+    margin: 20px 0px;
+}
+
+.col-md-4 .word {
+    position: relative;
+    top: 100px;
+    background-color: black;
+}
+
+.col-md-4 .word:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.col-md-4 .pro .bar {
+    height: 20px;
+    width: 80%;
+    margin: auto;
+    /*    float: right;*/
+    border: 1px solid #FFF;
+    box-sizing: border-box;
+}
+
+.iner1 {
+    width: 30%;
+    height: 19px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.col-md-4 .pro p {
+    /*    width: 20%;*/
+    height: 20px;
+    text-align: center;
+    /*    float: left;*/
+}
+
+.col-md-8 {
+    position: relative;
+    left: 600px;
+}
+
+.col-md-8 h1 {
+    padding: 20px 0px;
+    box-sizing: border-box;
+    border-bottom: 5px solid #737373;
+}
+
+.col-md-8 p {
+    font-size: 20px;
+}
+
+.whitespace {
+    width: 100%;
+    height: 30px;
+}
+
+.col-md-8 ul {
+    list-style-position: inside;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.col-md-8 img {
+    width: 100%;
+    position: relative;
+    top: -200px;
+}
+
+.col-md-8 .imgcon {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
