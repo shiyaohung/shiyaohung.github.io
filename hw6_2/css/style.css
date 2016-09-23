@@ -1,0 +1,221 @@
+/*套用到全部設定*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+
+/* nav與作業4-1類似 */
+
+nav {
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+}
+
+.navbar-default {
+    background-color: #5e5e5e;
+    color: white;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav li a {
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+}
+
+.navbar-default .navbar-right li a {
+    background-color: #5e5e5e;
+    color: white;
+    height: 60px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.part1 .jumbotron {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/slider-image-blurry.jpg");
+}
+
+.part1 h2 {
+    position: relative;
+    top: 300px;
+    width: 270px;
+    padding: 10px;
+    color: white;
+    background-color: #ff5454;
+    margin: 0;
+    font-size: 20px;
+}
+
+.part1 p {
+    margin: 0;
+    color: white;
+    text-align: left;
+    position: relative;
+    top: 300px;
+    padding: 10px;
+    width: 500px;
+    background-color: #3b3b3b;
+    font-size: 14px;
+}
+
+.part2 {
+    height: 80px;
+}
+
+.part2 button {
+    display: block;
+    position: relative;
+    border-radius: 0;
+    background-color: #ff5454;
+    color: white;
+    top: 50px;
+    padding: 5px 20px;
+}
+
+.part2 p {
+    height: 100px;
+    line-height: 100px;
+    color: #ff5454;
+}
+
+.part3 {
+    width: 100%;
+    /*    height: 2900px;*/
+    background-color: #d8d8d8;
+    overflow: auto;
+}
+
+.part3 .jumbotron {
+    background-color: #d8d8d8;
+}
+
+.part3 .col-md-4 {
+    background-color: white;
+}
+
+.part3 .col-md-4 p {
+    font-size: 18px;
+    line-height: 1;
+    /*    margin-left: 20pxx;*/
+}
+
+.part3 .col-md-4 li {
+    font-size: 18px;
+    line-height: 1;
+    margin-left: 20px;
+}
+
+[class*=colum] {
+    float: none;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 30px;
+    /*    border: 1px solid #000;*/
+    /*    box-sizing: border-box;*/
+    background-color: white;
+}
+
+[class*=colum] img {
+    width: 100%;
+}
+
+[class*=colum] p,
+h1,
+h2 {
+    padding: 0px 20px;
+    float: none;
+    text-align: left;
+}
+
+[class*=colum] h1 {
+    padding: 0px 20px;
+    float: none;
+    text-align: left;
+    font-size: 25px;
+    line-height: 0.5;
+}
+
+[class*=colum] h2 {
+    font-size: 20px;
+    line-height: 1;
+    /*    padding-top: 10px;*/
+}
+
+[class*=colum] p {
+    font-size: 15px;
+    line-height: 1;
+    /*    padding-top: 10px;*/
+    color: black;
+}
+
+[class*=colum] button {
+    position: relative;
+    border-radius: 0;
+    background-color: #ff5454;
+    color: white;
+    left: 440px;
+    top: 15px;
+    padding: 5px 20px;
+}
+
+.link1 {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.link1 img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    display: block;
+}
+
+.link1 p {
+    color: #ff5454;
+    text-align: left;
+    width: 200px;
+    padding-left: 15px;
+    float: left;
+    line-height: 1;
+    font-size: 18px;
+}
+
+.part4 {
+    width: 100%;
+    height: 300px;
+    background-color: #5e5e5e;
+}
+
+.part4 .col-md-4 {
+    position: relative;
+    top: 30px;
+}
+
+.part4 p {
+    color: white;
+    text-align: left;
+}
+
+.part4 li {
+    text-align: left;
+    color: white;
+    padding-bottom: 15px
+}
+
+.part4 h1 {
+    padding: 0;
+    color: white;
+    padding-bottom: 10px;
+}

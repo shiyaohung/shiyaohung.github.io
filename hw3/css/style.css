@@ -1,0 +1,174 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.back {
+    text-align: center;
+    width: 740px;
+    height: 740px;
+    margin: auto;
+    /*        background-image: url("../images/iphone.jpg");*/
+    background-repeat: no-repeat;
+}
+
+.out {
+    position: relative;
+    top: 47px;
+    left: 211px;
+    width: 317px;
+    height: 645px;
+    border-radius: 45px;
+    border: 1px solid #000;
+    float: left;
+    background-color: #fbfbfb;
+}
+
+.gold {
+    position: absolute;
+    /*    background-color: #cecece;*/
+    /*    background-color: red;*/
+    float: left;
+    width: 317px;
+    height: 645px;
+    border-radius: 45px;
+    border: 2px solid rgb(209, 196, 125);
+    box-sizing: border-box;
+    float: left;
+}
+
+.button {
+    position: absolute;
+    background-color: #cecece;
+    /*    background-color: red;*/
+    float: left;
+}
+
+.silent {
+    width: 2px;
+    height: 23px;
+    /*    border: 1px solid #000;*/
+    left: -3px;
+    top: 75px;
+}
+
+.volumeup {
+    width: 2px;
+    height: 41px;
+    /*    border: 1px solid #000;*/
+    left: -3px;
+    top: 123px;
+}
+
+.volumedown {
+    width: 2px;
+    height: 41px;
+    /*    border: 1px solid #000;*/
+    left: -3px;
+    top: 174px;
+}
+
+.power {
+    width: 2px;
+    height: 41px;
+    /*    border: 1px solid #000;*/
+    left: 318px;
+    top: 123px;
+}
+
+.circle {
+    position: absolute;
+    background-color: black;
+    float: left;
+}
+
+.camera {
+    width: 11px;
+    height: 11px;
+    top: 32px;
+    left: 109px;
+    border-radius: 5px;
+}
+
+.prox {
+    width: 6px;
+    height: 6px;
+    top: 16px;
+    left: 156px;
+    border-radius: 35px;
+}
+
+.headphone {
+    position: absolute;
+    background-color: black;
+    float: left;
+    width: 42px;
+    height: 2px;
+    top: 37px;
+    left: 138px;
+}
+
+.home {
+    position: absolute;
+    /*    background-color: white;*/
+    float: left;
+    width: 42px;
+    height: 42px;
+    top: 583px;
+    left: 136px;
+    border-radius: 35px;
+    border: 1px solid #8f8f8f;
+}
+
+.home2 {
+    position: absolute;
+    /*    background-color: white;*/
+    float: left;
+    width: 42px;
+    height: 42px;
+    top: 584px;
+    left: 137px;
+    border-radius: 35px;
+    border: 2px solid #bebebe;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.ant {
+    position: absolute;
+    background-color: white;
+    float: left;
+    width: 3px;
+    height: 9px;
+}
+
+#ant1 {
+    top: 42px;
+    left: 0px;
+}
+
+#ant2 {
+    top: 42px;
+    left: 314px;
+}
+
+#ant3 {
+    top: 592px;
+    left: 0px;
+}
+
+#ant4 {
+    top: 592px;
+    left: 314px;
+}
+
+.screen {
+    position: absolute;
+    background-color: black;
+    float: left;
+    width: 287px;
+    height: 505px;
+    border-radius: 5px;
+    top: 69px;
+    left: 15px;
+}

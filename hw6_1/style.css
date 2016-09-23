@@ -1,0 +1,83 @@
+nav {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+}
+
+.navbar-default {
+    background-color: #ff0084;
+    color: white;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav li a {
+    background-color: #ff0084;
+    color: white;
+}
+
+.part1 .jumbotron {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    margin: 0;
+    height: 500px;
+    background-image: url("https://unsplash.it/g/1000");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part1 .jumbotron .container {
+    position: relative;
+    top: 50px;
+}
+
+.part1 .jumbotron h1 {
+    font-size: 40px;
+    color: #ff0084;
+    margin: 30px;
+}
+
+.part1 .jumbotron p {
+    font-size: 14px;
+    color: white;
+    line-height: 2;
+    margin: 30px;
+}
+
+.part1 .jumbotron .btn-default {
+    background-color: #ff0084;
+    color: white;
+}
+
+.part2 {
+    text-align: center;
+}
+
+.part2 p {
+    font-size: 14px;
+}
+
+.part2 .row {
+    margin: 30px;
+}
+
+.part2 [class^=col-] img {
+    display: block;
+    margin: auto;
+}
+
+.part2 [class^=col-] h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.part2 [class^=col-] p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.jumbotron {
+    margin: 0;
+}

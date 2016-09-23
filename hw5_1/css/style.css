@@ -1,0 +1,462 @@
+/*套用到全部的設定*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*設定nav背景顏色*/
+
+nav {
+    widows: 100%;
+    height: 60px;
+    /*    border: 1px solid #000;*/
+    background-color: #f7f7f7;
+    overflow: auto;
+}
+
+nav img {
+    height: 30px;
+    float: left;
+    position: relative;
+    left: 60px;
+    top: 15px;
+}
+
+nav div {
+    position: relative;
+    left: -30px;
+    top: 7px;
+}
+
+div div {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    /*    box-sizing: border-box;*/
+    /*    border: 1px solid #000;*/
+    float: right;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/*設定part1的背景圖片*/
+
+#part1 {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 60%;
+    background-image: url("../img/photo-1443527216320-7e744084f5a7.jpg");
+}
+
+
+/*設定part1中文字的位置*/
+
+#part1 text {
+    /*    color: red;*/
+    position: relative;
+    top: 270px;
+}
+
+div.box {
+    float: none;
+    position: relative;
+    top: 270px;
+    margin: auto;
+    width: 600px;
+    height: 60px;
+    /*    border: 1px solid #000;*/
+    /*    background-color: #f7f7f7;*/
+    /*    overflow: auto;*/
+}
+
+[id*=button] {
+    float: none;
+    display: inline-block;
+    position: relative;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    margin: 5px;
+    color: white;
+    line-height: 40px;
+}
+
+#button2 {
+    background-color: blueviolet;
+}
+
+
+/*part2設定*/
+
+@media screen and (max-width:768px) {
+    #part2 {
+        width: 100%;
+        height: 700px;
+        /*    border: 1px solid #000;*/
+    }
+    .box1 {
+        position: relative;
+        top: 20px;
+        float: none;
+        position: relative;
+        /*    top: 270px;*/
+        margin: auto;
+        width: 600px;
+        height: 500px;
+        /*    border: 1px solid #000;*/
+    }
+    .box1 img {
+        /*    top: -200px;*/
+        float: left;
+        /*    margin:;*/
+        text-align: right;
+        width: 600px;
+    }
+    .text1 {
+        position: relative;
+        /*        top: 80px;*/
+        float: none;
+        margin: auto;
+        text-align: center;
+        width: 60%;
+        height: 300px;
+        box-sizing: border-box;
+        /*    border: 1px solid #000;*/
+    }
+    .text1 p {
+        margin-top: 10px;
+        line-height: 1;
+        text-align: center;
+        color: #787878;
+    }
+    #part3 {
+        width: 100%;
+        height: 700px;
+        background-color: #c9c9c9;
+        /*    border: 1px solid #000;*/
+    }
+    #part3 .text1 {
+        position: relative;
+        top: 50px;
+    }
+    #part3 img {
+        position: relative;
+        top: -50px;
+    }
+}
+
+@media screen and (min-width:769px) {
+    #part2 {
+        width: 100%;
+        height: 450px;
+        /*    border: 1px solid #000;*/
+    }
+    .box1 {
+        position: relative;
+        top: 20px;
+        float: none;
+        position: relative;
+        /*    top: 270px;*/
+        margin: auto;
+        width: 900px;
+        height: 500px;
+        /*    border: 1px solid #000;*/
+    }
+    .box1 img {
+        /*    top: -200px;*/
+        float: left;
+        /*    margin:;*/
+        text-align: right;
+        width: 600px;
+    }
+    .text1 {
+        position: relative;
+        top: 80px;
+        float: left;
+        /*    margin:;*/
+        text-align: left;
+        width: 300px;
+        height: 300px;
+        box-sizing: border-box;
+        /*    border: 1px solid #000;*/
+    }
+    .text1 p {
+        margin-top: 10px;
+        line-height: 1;
+        text-align: left;
+        color: #787878;
+    }
+    #part3 {
+        width: 100%;
+        height: 450px;
+        background-color: #c9c9c9;
+        /*    border: 1px solid #000;*/
+    }
+}
+
+h2 {
+    color: #787878;
+}
+
+.text1 #button2 {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+
+/*part3設定*/
+
+
+/*part4設定*/
+
+#part4 {
+    width: 100%;
+    height: 225px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 60%;
+    background-image: url("../img/photo-1452723312111-3a7d0db0e024.jpg")
+}
+
+.text2 {
+    position: relative;
+    top: 60px;
+    float: none;
+    margin: auto;
+    width: 90%;
+    height: 100px;
+    /*    border: 1px solid #000;*/
+}
+
+.text2 p {
+    line-height: 1;
+    margin-top: 10px;
+}
+
+.text2 #button2 {
+    margin-top: 10px;
+}
+
+
+/*part5設定*/
+
+#part5 {
+    width: 100%;
+    height: 900px;
+    /*    border: 1px solid #000;*/
+}
+
+#part5 .text2 {
+    position: relative;
+    top: 80px;
+}
+
+#part5 .text2 p {
+    margin: auto;
+    width: 700px;
+    margin-top: 20px;
+    color: #787878;
+}
+
+#part5 .text2 h1 {
+    color: #787878;
+}
+
+#part5 img {
+    float: none;
+    display: block;
+    position: relative;
+    top: 196px;
+    margin: 0 auto;
+    /*    text-align: center;*/
+    width: 850px;
+}
+
+#part6 {
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    /*    border: 1px solid #000;*/
+}
+
+#part6 div {
+    float: none;
+    margin: auto;
+    width: 1400px;
+    height: 900px;
+}
+
+#part6 h2 {
+    text-align: center;
+    padding-top: 49px;
+    color: white;
+}
+
+@media screen and (min-width:769px) {
+    #part6 {
+        width: 100%;
+        height: 900px;
+        background-color: black;
+        /*    border: 1px solid #000;*/
+    }
+    #part6 div {
+        float: none;
+        margin: auto;
+        width: 1400px;
+        height: 900px;
+    }
+    #part6 h2 {
+        text-align: center;
+        padding-top: 49px;
+        color: white;
+    }
+    #part6 img {
+        display: block;
+        float: left;
+        width: 25%;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #part6 {
+        width: 100%;
+        height: 1440px;
+        background-color: black;
+        /*    border: 1px solid #000;*/
+    }
+    #part6 div {
+        float: none;
+        margin: auto;
+        width: 700px;
+        height: 900px;
+    }
+    #part6 h2 {
+        text-align: center;
+        padding-top: 49px;
+        color: white;
+    }
+    #part6 img {
+        display: block;
+        float: left;
+        width: 50%;
+        height: 270px;
+    }
+}
+
+#part7 {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 90%;
+    background-image: url("../img/photo-1452723312111-3a7d0db0e024.jpg")
+}
+
+#part7 h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#part7 img {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+#part8 {
+    width: 100%;
+    height: 300px;
+    /*    border: 1px solid #000;*/
+}
+
+@media screen and (max-width:768px) {
+    #part8 div {
+        float: none;
+        margin: auto;
+        width: 700px;
+        height: 100px;
+    }
+    #part8 h1 {
+        padding-top: 30px;
+        padding-bottom: 15px;
+        color: #787878;
+    }
+    #part8 img {
+        height: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width:769px) {
+    #part8 div {
+        float: none;
+        margin: auto;
+        width: 1400px;
+        height: 100px;
+    }
+    #part8 h1 {
+        padding-top: 30px;
+        padding-bottom: 15px;
+        color: #787878;
+    }
+    #part8 img {
+        height: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+#part9 {
+    width: 100%;
+    height: 150px;
+    /*    border: 1px solid #000;*/
+    background-color: #c9c9c9;
+}
+
+#part9 .text3 {
+    float: none;
+    position: relative;
+    top: 50px;
+    width: 500px;
+    margin: auto;
+}
+
+.text3 #button2 {
+    margin-left: 90px;
+    float: left;
+}
+
+.text3 p {
+    position: relative;
+    top: 8px;
+    float: left;
+}
+
+bigbox {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid #000;
+}

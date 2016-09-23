@@ -1,0 +1,315 @@
+/*套用到全部設定*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* nav與作業4-1類似 */
+
+nav {
+    widows: 100%;
+    height: 60px;
+    /*    border: 1px solid #000;*/
+    background-color: #5e5e5e;
+    overflow: auto;
+}
+
+nav .img {
+    /*    height: 30px;*/
+    float: left;
+    position: relative;
+    left: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+nav div {
+    color: white;
+    position: relative;
+    left: -30px;
+    top: 7px;
+}
+
+div div {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    /*    box-sizing: border-box;*/
+    /*    border: 1px solid #000;*/
+    float: right;
+}
+
+#part1 {
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/slider-image-blurry.jpg")
+}
+
+#part1 .part1box h2 {
+    position: relative;
+    top: 300px;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    background-color: #ff5454;
+}
+
+#part1 .part1box p {
+    position: relative;
+    top: 300px;
+    padding: 10px;
+    width: 500px;
+    background-color: #3b3b3b;
+}
+
+.part1box {
+    float: none;
+    margin: auto;
+    width: 900px;
+}
+
+#part2 {
+    height: 100px;
+}
+
+.part2box {
+    float: none;
+    margin: auto;
+    position: relative;
+    width: 900px;
+    height: 50px;
+    top: 25px;
+}
+
+#part2 .part2box p {
+    /*
+    position: relative;
+    top: 300px;
+*/
+    padding: 10px;
+    /*    width: 500px;*/
+    /*    background-color: #3b3b3b;*/
+    color: #ff5454;
+}
+
+#part2 .part2box .button {
+    float: right;
+    position: relative;
+    top: -40px;
+    left: -120px;
+    border: 2px solid #ff5454;
+    color: #ff5454;
+    background-color: white;
+}
+
+
+/*part3有左右兩欄，其中用bigbox包住以保持置中*/
+
+#part3 {
+    width: 100%;
+    height: 2700px;
+    background-color: #d8d8d8;
+    overflow: auto;
+}
+
+#part3 .bigbox {
+    margin: 30px auto;
+    float: none;
+    width: 900px;
+    height: 1800px;
+    /*    border: 1px solid #000;*/
+}
+
+.left {
+    float: left;
+    width: 615px;
+    height: 1000px;
+    /*    border: 1px solid #000;*/
+    /*    box-sizing: border-box;*/
+}
+
+.right {
+    float: left;
+    width: 255px;
+    height: 2000px;
+    margin-left: 30px;
+    background-color: white;
+    /*    border: 1px solid #000;*/
+    /*    box-sizing: border-box;*/
+}
+
+[class*=colum] {
+    float: none;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 30px;
+    /*    border: 1px solid #000;*/
+    /*    box-sizing: border-box;*/
+    background-color: white;
+}
+
+.button {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: #ff5454;
+    right: 10px;
+    color: white;
+}
+
+[class*=colum] img {
+    width: 100%;
+}
+
+[class*=colum] p,
+h1,
+h2 {
+    padding: 0px 0px;
+    float: none;
+    text-align: left;
+}
+
+[class*=colum] h2 {
+    font-size: 20px;
+    line-height: 1;
+    padding-top: 10px;
+}
+
+[class*=colum] p {
+    font-size: 15px;
+    line-height: 1;
+    padding-top: 10px;
+    color: black;
+}
+
+.right h2 {
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.right .link1 p {
+    color: #ff5454;
+    width: 165px;
+}
+
+.right .link1 img {
+    padding-left: 15px;
+}
+
+.right li {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.right img {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 5x;
+}
+
+.right P {
+    width: auto;
+    color: black;
+    line-height: 1;
+    padding-left: 20px;
+}
+
+.white {
+    width: 100%;
+    height: 20px;
+    /*    background-color: azure;*/
+}
+
+
+/*part4有左中右三欄，其中用bigbox2包住以保持置中 */
+
+#part4 {
+    width: 100%;
+    height: 300px;
+    background-color: #5e5e5e;
+}
+
+.bigbox2 {
+    position: relative;
+    top: 30px;
+    margin: auto;
+    /*    margin-top: 30px;*/
+    float: none;
+    width: 900px;
+    height: 240px;
+    /*    background-color: aqua;*/
+}
+
+.left2 {
+    float: left;
+    width: 315px;
+    /*    background-color: aqua;*/
+}
+
+.largelink {
+    width: 100%;
+    height: 200px;
+}
+
+.link1 {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.link1 img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    display: block;
+}
+
+.link1 p {
+    width: 225px;
+    padding-left: 15px;
+    float: left;
+    line-height: 1;
+}
+
+.centor2 li {
+    text-align: left;
+    color: white;
+}
+
+.centor2 {
+    float: left;
+    width: 315px;
+    /*    background-color: aquamarine;*/
+}
+
+.right2 {
+    float: left;
+    width: 270px;
+    /*    background-color: azure;*/
+}
+
+.right2 h1,
+p {
+    color: white;
+    text-align: left;
+}
+
+.right2 h1 {
+    padding: 0;
+}
+
+.right2 p {
+    line-height: 1;
+    padding-top: 20px;
+}
+
+#part5 {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
